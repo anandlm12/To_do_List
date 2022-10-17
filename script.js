@@ -8,7 +8,7 @@ document.querySelector('#push').onclick = function() {
                     ${document.querySelector("#newtask input").value}
                 </span> 
                 <button class = "delete">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    <i class="fa fa-trash" aria-hidden="true">X</i>
                 </button>
             </div>
         `;
