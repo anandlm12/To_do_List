@@ -14,7 +14,7 @@ body{
     );
 }
 .container{
-    border: 2 px solid white;
+    border: 2 px solid rgb(150, 148, 148);
     width: 40%;
     min-width: 450px;
     position: absolute;
@@ -25,7 +25,7 @@ body{
 }
 #newtask{
     position: relative;
-    background-color: #ffffff;
+    background-color: #22f306;
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0 15px 30 px rgba(0,0,0,0.3);
@@ -60,30 +60,30 @@ body{
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: #8052ec;
+    background-color: #410cf1;
     border: none;
     color: #ffffff;
     cursor: pointer;
 }
 
 #tasks{
-    background-color: #ffffff;
+    background-color: #22d2e9;
     padding: 30px 20px;
     margin-top: 60px;
     border-radius: 10px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px rgba(247, 0, 0, 0.3);
     width: 100%;
     position: relative;
 }
 .task{
-    background-color: #ffffff;
+    background-color: #ea1616;
     height: 50px;
     padding: 5px 10px;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #d1d3d4;
+    border-bottom: 2px solid #aeaeae;
     cursor: pointer;
 }
 .task span{
@@ -93,7 +93,7 @@ body{
 }
 .task button{
     background-color: #8052ec;
-    color: #ffffff;
+    color: #1c0909;
     height: 100%;
     width: 40px;
     border-radius: 5px;
